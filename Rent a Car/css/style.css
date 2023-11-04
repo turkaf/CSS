@@ -1,0 +1,52 @@
+body {
+  background-color: #EBF3E8
+}
+
+.font-style {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: #3A4D39;
+}
+
+a:hover {
+    color: #86A789;
+}
+
+a:active {
+    color: #739072;
+}
+
+.header, .navbar, .article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+  color: #3A4D39;
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+h3 {
+  color: #4F6F52;
+  font-size: 20px;
+  margin-left: 30px;
+}
+
+p {
+  margin-left: 30px;
+  font-size: 17px;
+}
+
+li {
+  display: inline-block;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+img {
+  width: 400px;
+}
