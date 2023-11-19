@@ -11,53 +11,73 @@
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:ital,wght@1,100&display=swap"
+        rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans:wght@300&display=swap"
+        rel="stylesheet">
+
     <title>Kurumsal</title>
 </head>
 
 <body style="background-color: #1d2731;">
 
-    <div class="bg-light-blue mt-2 fixed-top"> <!-- navbar - start -->
-        <div class="container" style="max-width: 1700px;">
-            <nav class="navbar navbar-expand-lg navbar-dark">
-                <a class="navbar-brand" href="index.html">
-                    <img src="images/logo.jpg" alt="logo">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active mr-1">
-                            <a class="nav-link" href="index.html">Ana Sayfa</a>
-                        </li>
-                        <li class="nav-item mr-1">
-                            <a class="nav-link" href="#">Hakkımızda</a>
-                        </li>
-                        <li class="nav-item mr-1">
-                            <a class="nav-link" href="#">Hizmetlerimiz</a>
-                        </li>
-                        <li class="nav-item mr-1">
-                            <a class="nav-link" href="#">İletişim</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Giriş</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+    <div class="fixed-top" style="background-color: #1d2731;"> <!-- navbar - start -->
+        <div class="bg-light-blue mt-2"> 
+            <div class="container" style="max-width: 1700px;">
+                <nav class="navbar navbar-expand-lg navbar-dark">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.jpg" alt="logo">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active mr-1">
+                                <a class="nav-link" href="index.html">Ana Sayfa</a>
+                            </li>
+                            <li class="nav-item mr-1">
+                                <a class="nav-link" href="#">Hakkımızda</a>
+                            </li>
+                            <li class="nav-item mr-1">
+                                <a class="nav-link" href="#">Hizmetlerimiz</a>
+                            </li>
+                            <li class="nav-item mr-1">
+                                <a class="nav-link" href="#">İletişim</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Giriş</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
         </div>
     </div> <!-- navbar - end -->
 
     <div class="container mt-1 py-5 text-light" style="max-width: 1500px;"> <!-- content - start -->
-        <div class="row">
-            <div class="col-8 my-5 d-flex align-items-center">
+        <div class="row mt-4">
+            <div class="col-7 my-5 d-flex align-items-center">
                 <div>
-                    <h1 class="mb-3">Web Sitemize Hoş Geldiniz!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut omnis odit laboriosam commodi
+                    <h1 class="mb-3" style="font-family: 'Open Sans', sans-serif;
+                    font-family: 'Roboto', sans-serif;">Web Sitemize Hoş Geldiniz!</h1>
+                    <p style="font-size: 20px; font-family: 'Montserrat', sans-serif;
+                    font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet
+                        consectetur, adipisicing elit. Ut omnis odit
+                        laboriosam commodi
                         sapiente, nostrum quam tempora labore laudantium dolor, explicabo nam, officia esse reiciendis
                         inventore odio. Ab, dolor inventore.</p>
-                    <p class="mb-3">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut omnis odit laboriosam
+                    <p class="mb-3" style="font-size: 20px; font-family: 'Montserrat', sans-serif;
+                    font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit
+                        amet consectetur, adipisicing elit.
+                        Ut omnis odit laboriosam
                         commodi
                         sapiente, nostrum quam tempora labore laudantium dolor, explicabo nam, officia esse reiciendis
                         inventore odio. Ab, dolor inventore.</p>
@@ -69,15 +89,17 @@
                     </div>
                 </div>
             </div>
-            <div class="col-4 d-flex align-items-center my-5">
+            <div class="col-5 d-flex align-items-center my-5">
                 <img class="w-100" src="images/content-image.jpg" alt="content-image">
             </div>
         </div>
         <div class="row mt-3">
-            <div class="col-4 bg-light-blue pt-5 px-4">
+            <div class="col-4 bg-light-blue pt-5 px-4" style="font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans', sans-serif;">
                 <span>
                     <h3>Lorem ipsum dolor sit.</h3>
-                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque atque exercitationem
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Eaque atque exercitationem
                         maiores,
                         obcaecati harum temporibus! Quisquam modi sapiente consectetur tempore, culpa deleniti ipsa at
                         quia
@@ -89,10 +111,12 @@
                     </div>
                 </span>
             </div>
-            <div class="col-4 text-dark py-5 px-4" style="background-color: #ebf0f4;">
+            <div class="col-4 text-dark py-5 px-4" style="background-color: #ebf0f4; font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans', sans-serif;">
                 <span>
                     <h3>Lorem ipsum dolor sit.</h3>
-                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fugit, optio iusto
+                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Repellat fugit, optio iusto
                         nostrum
                         doloribus adipisci amet magnam, reiciendis rem, labore soluta. Error provident voluptatibus
                         dicta
@@ -103,10 +127,13 @@
                     <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis, nesciunt?</p>
                 </span>
             </div>
-            <div class="col-4 bg-light-blue pt-5 px-4">
+            <div class="col-4 bg-light-blue pt-5 px-4" style="font-family: 'Montserrat', sans-serif;
+            font-family: 'Open Sans', sans-serif;">
                 <span>
                     <h3>Lorem ipsum dolor sit.</h3>
-                    <p class="mb-0">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta enim
+                    <p class="mb-0" style="font-family: 'Montserrat', sans-serif;
+                    font-family: 'Open Sans', sans-serif;">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptatum soluta enim
                         veritatis, ut ea
                         molestias facilis animi, dolorum asperiores unde eius rerum mollitia ipsum consequatur fugit
                         delectus hic maiores quam?</p>
@@ -131,8 +158,8 @@
                     </nav>
                 </div>
                 <div class="col-8 py-3">
-                    <address class="ml-3 float-right">
-                        <h6 class="text-white-50 mb-4">Adres</h6>
+                    <address class="ml-3 float-right text-white-50">
+                        <h6 class="mb-4">Adres</h6>
                         <strong>Firma Adı</strong><br>
                         1234 Sokak, Mahalle, Şehir<br>
                         Ülke, Posta Kodu<br>
